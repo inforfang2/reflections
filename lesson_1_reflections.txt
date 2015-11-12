@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We can find typoos easy. Errors we mistakenly did and also changes for testing the app. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    First of all, we can find out how changes affect the app. Secondly, it will help to understand
+    the progress nad know which part of app changed and what parts need to change. We can easily 
+    track which part of app needs to working or we were working on. Also, different programmers 
+    can work on different part and share the results. At last, it would be very easy to revert back to 
+    back stages when we need to undo our works.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Well, In this case for each version there would be a purpose to save. So whenever we list 
+    versions, it could be understandable why this new version created and what improved in that version. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because those files in Git usually connected and related to each other. and in Apps changing some 
+    part may affect other parts too. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log 
+    git log --stat    #show statistics of changes 
+    git diff <commit before> <actual commit>
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since I can revert my changes back to previous versions, it will help me 
+    to fix the problem and be confident about making changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    First thing I like to try is I want to contribute with a real project. 
+    I like to see how they change it in reality and I also could fix a few bugs.
