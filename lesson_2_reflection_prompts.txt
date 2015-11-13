@@ -6,16 +6,38 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	- working directory is where we work on code and staging area offers 
+	a place for the files which we think they are ready to be commited. and 
+	repository saves all changes safe in our main repository. 
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	- ok. it is easy. if made changes to different files you can commit them
+	step by step by adding the mto staged area , so that you can make them 
+	logically seperated. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	- They are very helpful to test new features and also run tests and builds maybe 
+	They are very usefull when working on different bugs too.
+
 How do the diagrams help you visualize the branch structure?
+
+	- We can see relation between branches and their parents . also remote branches 
+ 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	- When found out that a brach worked successfully for fixed a bug and it is finished 
+	so we can merge it to master branch. we represent it in this way because we want 
+	to identify it's parents in diagram.  
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	- Automaticc merging is good to speed up work but manual is better when two 
+	people work on same part of code. in that case someone should take take of merging 
+	. but who is qualified enough to do that. 
