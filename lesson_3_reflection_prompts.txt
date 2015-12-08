@@ -28,4 +28,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It is the great feature of git , i think. because you can work on seperate
+    projects at the same time. When I want to work on new feature or I want 
+    to fix a bug I prefer start with new branch then merge branch to master.
